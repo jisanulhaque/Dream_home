@@ -1,0 +1,210 @@
+/*Navbar start*/
+
+.wrapper{
+	width: 90%;
+	overflow: hidden;
+	background-color: white;
+	min-height: 30px;
+	margin: 0 auto;
+}
+
+
+.logo{
+	width: 20%;
+	float: left;
+	display: inline-block;
+}
+
+.logo a{
+	cursor: pointer;
+}
+
+.logo a img{
+	width:100%;
+	display: inline-block;
+}
+
+
+.navbar{
+	width: 70%;
+    float: right;
+    margin-top: 15px;
+
+}
+
+.navbar ul{
+	float: left;
+    padding: 0px;
+
+}
+
+.navbar ul li{
+	list-style-type: none;
+	float:left;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+    font: 16px;
+    font-family: sans-serif;
+    color: #546788;
+    font-weight: :700;
+    padding: 0px 33px;
+    display: inline-block;
+    text-transform: uppercase;
+
+}
+/*Navbar ENd*/
+
+/*Banner  start*/
+.banner{
+	margin: auto;
+
+}
+
+.banner .wrapper{
+	background-image: url(../images/dreamhome.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.home{
+	
+    background-color: rgba(78,72,82,0.5);
+    width: 20%;
+    float: left;
+    padding: 15px;
+    margin: 3% 0 13% 0;
+}
+
+
+.home h1{
+	font-family: sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+	color: #BEB3AF;
+	line-height: 1.5;
+
+}
+
+
+.home p{
+	font-family: sans-serif;
+    color: #BEB3AF;
+    line-height: 1.5;
+    margin: 3px 0;
+}
+
+.home button{
+	border: none;
+    padding: 9px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgba(78,72,82,0.4);
+    color: #BEB3AF;
+    font-size: 11px;
+    cursor: pointer;
+
+}
+/*Banner End*/
+
+
+/*Service Strat*/
+
+.service{
+
+}
+
+.service .wrapper{
+	margin-top: 80px;
+
+}
+
+.service .wrapper .single_item{
+	width: 25%;
+    /* border: 1px solid red; */
+    text-align: center;
+    display: inline-block;
+    padding: 13px;
+    margin: 0 33px;
+   }
+
+
+
+.service .wrapper .single_item h3{
+	font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #C5C2B9;
+    margin-bottom: 10px;
+}
+
+
+
+.service .wrapper .single_item .images{
+	width:100%;
+
+}
+
+.service .wrapper .single_item p{
+	font-family: sans-serif;
+    color: #8F8A84;
+    margin-top: 40px;
+    line-height: 1.6;
+}
+
+.service .wrapper .single_item button{
+	color: white;
+    background-color: #43617D;
+    border: none;
+    padding: 7px 24px;
+    font-size: 11px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+/*Service End*/
+
+/*Contact Start*/
+.contact{
+	width:100%;
+}
+
+.contact .wrapper{
+	width:90%;
+	text-align: center;
+	margin-top: 70px;
+}
+.contact .wrapper h3{
+	font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #43617D;
+
+}
+
+.contact .wrapper h4{
+	font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #43617D;
+}
+
+.contact .wrapper .contact_info{
+	margin-top:20px;
+}
+
+.contact .wrapper .contact_info a{
+	
+}
+
+.contact .wrapper .contact_info a img{
+	width: 30px;
+    padding: 3px;
+}
+
+
+
+/*Contact End*/
